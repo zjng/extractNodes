@@ -137,7 +137,7 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-- {name: "WARP",type: wireguard,server: 188.114.97.68,port: 928,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true,dialer-proxy: "WARP前置节点"}
+- {name: "WARP",type: wireguard,server: 188.114.97.68,port: 928,ip: 172.16.0.2,private-key: OHOAo57iX/tjYVw9AFNDELK5V62vh0P2osnztODJv2Q=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true,dialer-proxy: "WARP前置节点"}
 ${yamlString}
 proxy-groups:
 - name: 节点选择
